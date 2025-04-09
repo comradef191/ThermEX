@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "6b967bef-d6e0-4b61-bd4d-3c9f0a256108")
 	(paper "A5")
+	(title_block
+		(title "ThermEX26 Klipper Thermistor Expansion")
+		(date "2025-04-07")
+		(rev "2")
+		(company "Pera @ https://transfur.science/f191")
+		(comment 1 "CERN OHL v2 - S")
+		(comment 3 "https://github.com/comradef191/ThermEX")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)

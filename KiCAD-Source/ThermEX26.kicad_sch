@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "31305e3c-4102-45f5-9b4f-137974626130")
 	(paper "A5")
+	(title_block
+		(title "ThermEX26 Klipper Thermistor Expansion")
+		(date "2025-04-07")
+		(rev "1")
+		(company "Pera @ https://transfur.science/f191")
+		(comment 1 "CERN OHL v2 - S")
+		(comment 3 "https://github.com/comradef191/ThermEX")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -7822,7 +7830,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "9")
 				)
@@ -7876,7 +7884,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "3")
 				)
@@ -7930,7 +7938,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "7")
 				)
@@ -7984,7 +7992,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "4")
 				)
@@ -8038,7 +8046,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "11")
 				)
@@ -8099,7 +8107,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "15")
 				)
@@ -8153,7 +8161,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "5")
 				)
@@ -8214,7 +8222,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "12")
 				)
@@ -8268,7 +8276,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "6")
 				)
@@ -8329,7 +8337,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "13")
 				)
@@ -8383,7 +8391,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "10")
 				)
@@ -8437,7 +8445,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "8")
 				)
@@ -8498,7 +8506,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "14")
 				)
@@ -8552,7 +8560,7 @@
 			)
 		)
 		(instances
-			(project "ThermEX10-Stack"
+			(project "ThermEX26"
 				(path "/31305e3c-4102-45f5-9b4f-137974626130"
 					(page "2")
 				)

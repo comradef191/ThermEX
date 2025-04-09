@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "e1eaccf5-1dba-425b-9422-9665738c1938")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "ThermEX26 Klipper Thermistor Expansion")
+		(date "2025-04-07")
+		(rev "2")
+		(company "Pera @ https://transfur.science/f191")
+		(comment 1 "CERN OHL v2 - S")
+		(comment 3 "https://github.com/comradef191/ThermEX")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

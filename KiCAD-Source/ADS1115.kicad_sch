@@ -1,0 +1,3645 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6b967bef-d6e0-4b61-bd4d-3c9f0a256108")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Analog_ADC:ADS1115IDGS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADS1115IDGS"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+				(at -1.27 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "16 bit 4 channel I2C ADC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADS1115IDGS_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADS1115IDGS_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "ALERT/RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 69.85 19.05)
+		(end 95.25 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 131c1200-3dce-44e8-b362-148af66da55e)
+	)
+	(rectangle
+		(start 44.45 38.1)
+		(end 69.85 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 21671883-23d0-4556-ae50-46439866cc40)
+	)
+	(rectangle
+		(start 44.45 19.05)
+		(end 69.85 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 32ada67d-9327-4f69-b5c4-76341f8dffa9)
+	)
+	(rectangle
+		(start 69.85 38.1)
+		(end 95.25 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74c325d7-aa44-421a-a0dc-ae3a8faf78e7)
+	)
+	(junction
+		(at 120.65 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d68b4b-3abb-4d84-b021-1553340e27dc")
+	)
+	(junction
+		(at 56.515 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bfba0d4-3198-4882-b94c-6810cd5db426")
+	)
+	(junction
+		(at 53.975 20.955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d69b5a-aa50-4c87-ad50-58fae0fa12d7")
+	)
+	(junction
+		(at 79.375 20.955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c48914c-ff42-42e2-bb39-c2b0a0625040")
+	)
+	(junction
+		(at 53.975 40.005)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "765943ed-8ca1-4652-bafb-342e2550b194")
+	)
+	(junction
+		(at 81.915 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77258dd7-e78d-4e19-8169-170aa5968ede")
+	)
+	(junction
+		(at 56.515 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9834fa5a-7764-42b8-892b-ed2ff3495a34")
+	)
+	(junction
+		(at 79.375 40.005)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a5e34f-d704-45f1-b2d0-dae7fa1fbbe3")
+	)
+	(junction
+		(at 81.915 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd6e348c-f0c2-4039-bb2d-aec8101fbda4")
+	)
+	(no_connect
+		(at 130.81 40.64)
+		(uuid "dcf8f85e-3172-42cd-8434-73af8f7834e2")
+	)
+	(wire
+		(pts
+			(xy 79.375 27.94) (xy 76.835 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e20df1-6f67-4631-8673-1cbfcef675ee")
+	)
+	(wire
+		(pts
+			(xy 53.975 40.005) (xy 53.975 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22047601-c189-4ea7-8022-b1c15d4415ef")
+	)
+	(wire
+		(pts
+			(xy 81.915 20.955) (xy 79.375 20.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2393a617-b780-4c1e-b5c8-ce8aaece16d4")
+	)
+	(wire
+		(pts
+			(xy 56.515 20.955) (xy 56.515 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f85510-5332-462f-9b10-50c3e5795651")
+	)
+	(wire
+		(pts
+			(xy 81.915 46.99) (xy 81.915 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3308a05e-3944-4bf0-96f1-1183a70f5367")
+	)
+	(wire
+		(pts
+			(xy 56.515 30.48) (xy 59.055 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659806ff-e68b-463f-928f-8b227e3cf964")
+	)
+	(wire
+		(pts
+			(xy 81.915 30.48) (xy 84.455 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac50cb9-d4b2-4931-9626-4b018cd14b6c")
+	)
+	(wire
+		(pts
+			(xy 81.915 30.48) (xy 76.835 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765863d6-7e35-47e5-a318-e52aecb3fabd")
+	)
+	(wire
+		(pts
+			(xy 56.515 49.53) (xy 59.055 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f017bb-b526-4937-8d8c-cb0f2e7210be")
+	)
+	(wire
+		(pts
+			(xy 56.515 49.53) (xy 51.435 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c77055-2720-49ba-ba08-5c7720be9b5d")
+	)
+	(wire
+		(pts
+			(xy 56.515 54.61) (xy 56.515 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb4bf12-ecac-4486-bfd3-9b513662121b")
+	)
+	(wire
+		(pts
+			(xy 56.515 40.005) (xy 53.975 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4e90d-dbbc-4841-a7ad-80ef019df0a6")
+	)
+	(wire
+		(pts
+			(xy 81.915 27.94) (xy 81.915 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0c52fd-709f-4ea5-a443-0a9675d6bece")
+	)
+	(wire
+		(pts
+			(xy 81.915 49.53) (xy 84.455 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d424a2f-6821-4795-a977-2243914c3ca0")
+	)
+	(wire
+		(pts
+			(xy 53.975 27.94) (xy 51.435 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2924979-8bc8-4ed0-b493-5b7f2f547be4")
+	)
+	(wire
+		(pts
+			(xy 79.375 40.005) (xy 79.375 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56af777-b397-49ca-91dd-9ba66bc29887")
+	)
+	(wire
+		(pts
+			(xy 56.515 40.005) (xy 56.515 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cefb88-9528-4a74-9596-4aa51eb502c0")
+	)
+	(wire
+		(pts
+			(xy 81.915 40.005) (xy 79.375 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d4c95b-93a3-428a-99db-1cfbdab23cc1")
+	)
+	(wire
+		(pts
+			(xy 56.515 46.99) (xy 56.515 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3abd79-80db-45fe-91c1-0991cc254e0b")
+	)
+	(wire
+		(pts
+			(xy 56.515 30.48) (xy 51.435 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcfe99b-2cca-4bb9-892e-31c467d114a0")
+	)
+	(wire
+		(pts
+			(xy 56.515 27.94) (xy 56.515 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb216c8b-5690-43f7-99b7-d86e9cb12e52")
+	)
+	(wire
+		(pts
+			(xy 79.375 20.955) (xy 79.375 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5c4cc9-64a0-42ab-a83d-3178b5da906d")
+	)
+	(wire
+		(pts
+			(xy 81.915 35.56) (xy 81.915 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb66eb6-b2bc-4913-9137-43a8bb598fd9")
+	)
+	(wire
+		(pts
+			(xy 81.915 49.53) (xy 76.835 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bd5833-5058-4b5b-ba6e-e4b370d73bef")
+	)
+	(wire
+		(pts
+			(xy 118.745 31.75) (xy 120.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d209b31a-db32-43dd-b700-d8c8b1ca91df")
+	)
+	(wire
+		(pts
+			(xy 79.375 46.99) (xy 76.835 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5369ed9-2eaf-4590-9f5c-b9de776bdd7a")
+	)
+	(wire
+		(pts
+			(xy 53.975 46.99) (xy 51.435 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d893e477-946e-4ba6-82e7-adf578596f42")
+	)
+	(wire
+		(pts
+			(xy 56.515 35.56) (xy 56.515 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2bb303-c92c-4b89-970f-a7c181448f8a")
+	)
+	(wire
+		(pts
+			(xy 81.915 20.955) (xy 81.915 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2df4d7a-614f-47bf-8f5a-e7d67b37ed17")
+	)
+	(wire
+		(pts
+			(xy 53.975 20.955) (xy 53.975 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6664a3d-1ba4-4daf-a45b-b177d4e8b077")
+	)
+	(wire
+		(pts
+			(xy 81.915 40.005) (xy 81.915 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9580fc7-aee2-428f-bddc-68342ac20a6d")
+	)
+	(wire
+		(pts
+			(xy 81.915 54.61) (xy 81.915 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99b66ec-4ac9-495f-bd29-0017a9bbf475")
+	)
+	(wire
+		(pts
+			(xy 56.515 20.955) (xy 53.975 20.955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ea41f5-6acd-4dda-ac75-6a768b1a898f")
+	)
+	(wire
+		(pts
+			(xy 120.65 31.75) (xy 120.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab4f268-df97-48b2-b311-f89c77cd7cee")
+	)
+	(label "THERM-3"
+		(at 59.055 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "177380c2-fa47-4246-b648-a2d9227e56c0")
+	)
+	(label "THERM-0"
+		(at 110.49 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aa3a56d-6814-46dc-a58d-0715f549d330")
+	)
+	(label "THERM-1"
+		(at 110.49 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22d7ad6e-8ddd-4242-ab53-5828d1594306")
+	)
+	(label "THERM-3"
+		(at 110.49 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7111f6a7-4359-472d-a985-4453c537aa81")
+	)
+	(label "THERM-2"
+		(at 110.49 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ae90ba5-4603-4e75-b197-bce4c2121a9c")
+	)
+	(label "THERM-2"
+		(at 84.455 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f1a933b-287d-46fb-b843-3059a36ade37")
+	)
+	(label "THERM-0"
+		(at 59.055 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a063919c-7743-4a0a-bab3-d6191ba9ddbf")
+	)
+	(label "THERM-1"
+		(at 84.455 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd159c6c-b45a-4f8e-8770-cba5f754e8ef")
+	)
+	(global_label "I2C-SDA-1"
+		(shape input)
+		(at 130.81 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c9a8135-8cb3-4ec8-9eaf-879503f71175")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8019 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-SCL-1"
+		(shape input)
+		(at 130.81 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2603c4f-7c47-47e0-927b-c159caedca28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.7414 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "Address"
+		(shape input)
+		(at 130.81 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9d07015-bca2-43be-af8c-eba37fbb4875")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.915 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a3b2335-20f2-453f-babb-a43ddb848897")
+		(property "Reference" "C19"
+			(at 83.82 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 81.915 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.915 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10v X7R MLCC"
+			(at 81.915 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 81.915 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c2855f9-1ed5-401a-96cd-c458d9d8e152")
+		)
+		(pin "1"
+			(uuid "aaf0c4aa-a964-4cb5-8d63-48596958da1c")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 46.355 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17936916-e8bc-4088-835b-e161782dbf24")
+		(property "Reference" "J19"
+			(at 45.085 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1x2-JSTXH"
+			(at 45.085 23.495 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CustomFootprints:JST-XH_1x02-V ~ Custom"
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5160911"
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a28d85-9552-4405-9eb1-4f4c5ecea41b")
+		)
+		(pin "2"
+			(uuid "3f6e52fa-663c-4a78-be17-6045ef052641")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "J19")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "J23")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 56.515 36.195 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24817af4-d94b-4388-8ffb-75a1eaff9710")
+		(property "Reference" "#PWR045"
+			(at 60.325 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 53.975 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 56.515 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17accb9-02bc-4e16-ba02-5b27c9e6149a")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.915 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2864f997-07a9-4431-87ab-e21a890fa85a")
+		(property "Reference" "R11"
+			(at 80.645 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 80.645 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.915 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.915 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.915 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 81.915 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "891698b0-c62a-437a-bc16-2f04927d374c")
+		)
+		(pin "1"
+			(uuid "6e087a12-6b18-4006-ab6d-94a4cdebcc38")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.665 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "311c571b-322b-4a80-8182-3c8ad3cb3e90")
+		(property "Reference" "#PWR047"
+			(at 107.315 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.125 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.665 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.665 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0370a92a-49aa-478e-8f5a-4d2bc30ceeac")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 71.755 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dc216b9-01be-4875-8761-d2c423086cf6")
+		(property "Reference" "J17"
+			(at 70.485 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1x2-JSTXH"
+			(at 70.485 23.495 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CustomFootprints:JST-XH_1x02-V ~ Custom"
+			(at 71.755 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.755 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5160911"
+			(at 71.755 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "115c2a5d-0160-4b4c-a160-a01032bc2b24")
+		)
+		(pin "2"
+			(uuid "021d6e58-d9e5-4c2f-9e4b-0e694b1cfb8d")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "J17")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "J21")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.975 20.955 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55bf6b0c-268d-4250-a0c8-592af247c52a")
+		(property "Reference" "#PWR033"
+			(at 47.625 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.435 20.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.975 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f138ca73-9210-4e20-ada1-9e9c4e1a2dad")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 56.515 52.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cf4b48c-fa90-4944-94df-e074cca1b3fe")
+		(property "Reference" "R12"
+			(at 55.245 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 55.245 53.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 56.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 56.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 56.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfb21c3e-8df7-479a-9daf-004b6cde9b0a")
+		)
+		(pin "1"
+			(uuid "258bb2cc-c520-423f-9e23-d8aff839b949")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 56.515 25.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77405617-d742-4897-b327-4455c3a9bfa0")
+		(property "Reference" "C18"
+			(at 58.42 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 24.13 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 56.515 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10v X7R MLCC"
+			(at 56.515 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 56.515 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a5cb20a-f707-4914-8e55-e340fc0d2df3")
+		)
+		(pin "1"
+			(uuid "47656679-c4d3-4817-b474-cdd03125d644")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.915 25.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "850bc031-3529-44f1-b51f-366302932b27")
+		(property "Reference" "C16"
+			(at 83.82 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 83.82 24.13 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 81.915 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.915 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10v X7R MLCC"
+			(at 81.915 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 81.915 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6284c5cf-3cb4-4483-9899-aca43cde4ac6")
+		)
+		(pin "1"
+			(uuid "433949f3-c019-4601-ba50-654b7f2ca55c")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.975 40.005 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d53df5a-650f-4f36-bebf-ca355e3abbb6")
+		(property "Reference" "#PWR023"
+			(at 47.625 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 51.435 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.975 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a67fc847-f007-4fb3-8657-0469876cf375")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 56.515 55.245 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e0ce794-cd46-4787-8b4e-bf0ddfda7c06")
+		(property "Reference" "#PWR029"
+			(at 60.325 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 53.975 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 56.515 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e78a7e-e938-4c55-80e7-00b2d1b92807")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93178283-2d83-4157-bb32-353268e20a90")
+		(property "Reference" "#PWR049"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8878c1c9-4bbb-488a-859b-52cf672a1150")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 81.915 55.245 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a13b37-8504-4e36-b182-952d34850e9e")
+		(property "Reference" "#PWR046"
+			(at 85.725 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 79.375 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.915 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.915 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 81.915 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03041eae-cff9-4da8-a74b-7f17f8b5da35")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 71.755 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "999d80bf-2f71-4b3a-9827-390df236a885")
+		(property "Reference" "J20"
+			(at 70.485 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1x2-JSTXH"
+			(at 70.485 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CustomFootprints:JST-XH_1x02-V ~ Custom"
+			(at 71.755 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.755 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5160911"
+			(at 71.755 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e85dc1-fd66-49d1-b966-51464f16d8ce")
+		)
+		(pin "2"
+			(uuid "ae352bcf-8498-4c8d-b27a-8c334692ba02")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "J20")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1115IDGS")
+		(at 120.65 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9aa908a9-4c85-4fd3-a0a8-f6a859dcd76b")
+		(property "Reference" "U3"
+			(at 128.905 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "ADS1115IDGSR"
+			(at 128.905 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_Package_SO_AKL:VSSOP-10_3x3mm_P0.5mm"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C37593"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5330a918-13cf-432a-9180-646318bad6d7")
+		)
+		(pin "7"
+			(uuid "89ac8721-3801-4be6-8934-9a855f8c69ec")
+		)
+		(pin "6"
+			(uuid "c2908ca8-fab2-4904-a554-a8812e4b4eca")
+		)
+		(pin "5"
+			(uuid "50521345-13bc-45ad-abff-fd8b161b6782")
+		)
+		(pin "4"
+			(uuid "b756139e-13f5-41b4-a4a2-af611d13a392")
+		)
+		(pin "9"
+			(uuid "893b2b6e-31e8-47a9-9ec7-814a0cec66df")
+		)
+		(pin "2"
+			(uuid "f996e03a-fa6c-4103-9b99-8e6c0a4dad24")
+		)
+		(pin "1"
+			(uuid "f4933cb4-f1a1-4374-846c-72109b29060b")
+		)
+		(pin "10"
+			(uuid "ca2f5f02-4d32-4e48-a2b3-64715e255b51")
+		)
+		(pin "3"
+			(uuid "927e40e4-0466-4fbf-8b7f-ffe814f6d3bc")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.375 20.955 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e1242c-a913-46b8-b411-b9146059cf5e")
+		(property "Reference" "#PWR01"
+			(at 73.025 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.835 20.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.375 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.375 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 79.375 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6798d99-54b5-4686-94b3-b8a022bcde32")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.375 40.005 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd83efea-81e3-4e4f-84bf-11a3e5d92da3")
+		(property "Reference" "#PWR035"
+			(at 73.025 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.835 40.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.375 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.375 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 79.375 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f91bf109-51d1-483e-b39b-e45312736c07")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 120.65 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de5a88f7-5878-43b0-8a08-1bd53fba5ea4")
+		(property "Reference" "#PWR048"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 123.19 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121084c3-b1f2-45f8-b00d-c79da20927cc")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 56.515 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0a52132-bdbd-44ff-9f12-fb9d70ddccc8")
+		(property "Reference" "R13"
+			(at 55.245 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 55.245 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 56.515 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 56.515 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 56.515 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68bb1a36-7e8b-4c6c-82a6-95c02e3775b1")
+		)
+		(pin "1"
+			(uuid "282a3c59-d566-49d2-82ec-1844c2fc7572")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 81.915 36.195 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e170bcff-2d75-46bd-8f81-ab04873793ea")
+		(property "Reference" "#PWR026"
+			(at 85.725 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 79.375 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.915 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.915 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 81.915 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d908961b-3a09-437f-8768-a98296556348")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.915 52.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e183a559-d5ae-4314-a5e9-3c45e7650a24")
+		(property "Reference" "R14"
+			(at 80.645 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 80.645 53.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 81.915 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.915 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.915 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 81.915 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e67a3062-4319-4e13-a353-da393710f8a8")
+		)
+		(pin "1"
+			(uuid "0a8f22c2-470e-4257-bd88-c0e0f67292fb")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 56.515 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e233720a-1fa1-4c17-a155-681d513a2b56")
+		(property "Reference" "C17"
+			(at 58.42 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 56.515 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10v X7R MLCC"
+			(at 56.515 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 56.515 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a506535-0e82-4b9e-a4f4-5568bc57ad04")
+		)
+		(pin "1"
+			(uuid "5f75e4c2-3d79-481a-a384-e5aba8d717d9")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 46.355 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eed0210d-df05-418d-bc45-d3c4c41e399b")
+		(property "Reference" "J18"
+			(at 45.085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1x2-JSTXH"
+			(at 45.085 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CustomFootprints:JST-XH_1x02-V ~ Custom"
+			(at 46.355 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.355 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5160911"
+			(at 46.355 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12a2af2-aeef-4e32-940b-c631f718cb64")
+		)
+		(pin "2"
+			(uuid "bc9405b7-31b5-4bab-a2a8-96474b5664b1")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "J18")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.205 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fef00403-60df-43b3-a96e-042fc329fbc3")
+		(property "Reference" "C20"
+			(at 116.205 29.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "1uF"
+			(at 116.205 33.655 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.205 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X5R 16v MLCC"
+			(at 116.205 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 116.205 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a25abac-8ac7-4057-ba74-caa9fe33b7c3")
+		)
+		(pin "2"
+			(uuid "5a72c858-785b-4c18-92e3-baab50be5a2f")
+		)
+		(instances
+			(project "ThermEX10-Stack"
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/5b7f8c3a-bf49-4fe7-b9e2-0885259e85ae"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/736fdfbf-dfa4-4812-8ea8-ef4c24d52839"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/c0001f35-f4a0-4a06-922c-6d6119e0bd23"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/31305e3c-4102-45f5-9b4f-137974626130/ee9ae569-84b1-483a-80a3-2ae423a98344"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

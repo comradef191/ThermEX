@@ -11,6 +11,12 @@ A BlackPill powered expansion board for Klipper 3D printers, allowing the use of
 - Breaks out the I2C2 & I2C3 busses to a pair of dedicated 4-pin JST-XH connectors
 - Breaks out the SPI2 bus to a dedicated header, alongside PB12 to act as chip-select
 
+# NOTICE
+if you are ordering a batch of PCBs, please for the love of god please use the pre-made gerber files in the [Releases tab](https://github.com/comradef191/ThermEX/releases) instead of downloading the repo, ignoring KiCADs warning you haven't got [a font installed](https://github.com/ETBCOR/nasin-nanpa), and then exporting your own files which both have the I2C bus shorted out (rendering only 10 thermistor ports usable) due to the missing font breaking artwork on the copper layer plus has had markings crediting me destroyed.
+![image](https://github.com/user-attachments/assets/fbb648ef-8200-4e9d-88b2-45c3fbe290ab)![image](https://github.com/user-attachments/assets/9ba5ad87-ff6e-49c0-8390-7f0a9d37d0cd)
+
+
+
 ## Vendors
 UK / EU
 - None... yet!

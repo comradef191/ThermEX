@@ -910,15 +910,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C14663"
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cc5cf767-4167-4433-ab22-deb98dc4ab3d")
 		)
@@ -1125,15 +1116,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5160911"
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2cf77745-8381-417c-b4a5-879febf57c71")
 		)
@@ -1231,15 +1213,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 113.03 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2989672"
 			(at 113.03 73.66 0)
 			(effects
 				(font

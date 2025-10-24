@@ -3431,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "STM32F401 Blackpill"
 			(at 25.4 8.89 0)
 			(effects
 				(font
